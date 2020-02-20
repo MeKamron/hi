@@ -157,7 +157,8 @@ void Jadval()
                 } else Arr[i][j]='O';
             }
           }
-
+          system("cls");
+          Jadval();
 
           a=checkdraw();
           if(a=='X'){
@@ -174,8 +175,8 @@ void Jadval()
             break;
           }
 
-          system("cls");
-          Jadval();
+          //system("cls");
+          //Jadval();
          count++;
         if (count%2==0){
             printf("\n%s: ",Player1);
@@ -192,7 +193,8 @@ void Jadval()
                 Arr[i][j]='O';
             }
           }
-
+          system("cls");
+          Jadval();
 
           a=checkdraw();
           if(a=='X'){
@@ -209,8 +211,8 @@ void Jadval()
             break;
           }
 
-          system("cls");
-          Jadval();
+          //system("cls");
+          //Jadval();
     }
 }
 
@@ -218,7 +220,6 @@ void Jadval()
 int main(){
     char a;
     Display();
-
     Game();
 
 
